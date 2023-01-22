@@ -8,7 +8,7 @@ import org.testng.Assert;
 import org.testng.annotations.*;
 
 
-public class AppTest {
+public class ScriptOne {
 	
 	WebDriver driver;
 	

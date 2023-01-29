@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-29T23:58:48 IST" name="Default suite" finished-at="2023-01-29T23:59:13 IST" duration-ms="25086">
+  <suite started-at="2023-01-30T01:54:42 IST" name="Default suite" finished-at="2023-01-30T01:55:35 IST" duration-ms="52858">
     <groups>
     </groups>
-    <test started-at="2023-01-29T23:58:48 IST" name="Default test" finished-at="2023-01-29T23:59:13 IST" duration-ms="25086">
+    <test started-at="2023-01-30T01:54:42 IST" name="Default test" finished-at="2023-01-30T01:55:35 IST" duration-ms="52858">
       <class name="com.maven.com.maven.rahul.ScriptOne">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.maven.com.maven.rahul.ScriptOne@5119fb47]" started-at="2023-01-29T23:58:48 IST" name="beforeMethod" finished-at="2023-01-29T23:59:09 IST" duration-ms="21564" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.maven.com.maven.rahul.ScriptOne@5119fb47]" started-at="2023-01-30T01:54:42 IST" name="beforeMethod" finished-at="2023-01-30T01:55:25 IST" duration-ms="43409" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="f()[pri:0, instance:com.maven.com.maven.rahul.ScriptOne@5119fb47]" started-at="2023-01-29T23:59:09 IST" name="f" finished-at="2023-01-29T23:59:12 IST" duration-ms="3057" status="PASS">
+        <test-method signature="f()[pri:0, instance:com.maven.com.maven.rahul.ScriptOne@5119fb47]" started-at="2023-01-30T01:55:25 IST" name="f" finished-at="2023-01-30T01:55:31 IST" duration-ms="5917" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.maven.com.maven.rahul.ScriptOne@5119fb47]" started-at="2023-01-29T23:59:12 IST" name="afterMethod" finished-at="2023-01-29T23:59:13 IST" duration-ms="373" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.maven.com.maven.rahul.ScriptOne@5119fb47]" started-at="2023-01-30T01:55:31 IST" name="afterMethod" finished-at="2023-01-30T01:55:35 IST" duration-ms="3287" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->

@@ -11,21 +11,20 @@ public class ScriptOne {
 	@Test
 	public void f() {
 	  
-	    String baseUrl = "https://www.toolsqa.com/";
-	      
-	         
-	        System.out.println("Launching Google Chrome browser");
-	        System.setProperty("webdriver.chrome.driver", "E:\\chromedriver.exe");
-			driver = new ChromeDriver();
-	        driver.get(baseUrl);
-	        String testTitle = "Tools QA";
-	        String originalTitle = driver.getTitle();
-	        Assert.assertEquals(originalTitle, testTitle);
+	    String baseUrl = "https://www.toolsqa.com/"; 
+	    driver.get(baseUrl);
+	    String testTitle = "Tools QA";
+	    String originalTitle = driver.getTitle();
+	    Assert.assertEquals(originalTitle, testTitle);
   }
 	
 	@BeforeMethod
 	public void beforeMethod() {
 		System.out.println("Starting Test On Chrome Browser");
+		System.out.println("Launching Google Chrome browser");
+        System.setProperty("webdriver.chrome.driver", "E:\\chromedriver.exe");
+		driver = new ChromeDriver();
+
 	}
 	
 	@AfterMethod

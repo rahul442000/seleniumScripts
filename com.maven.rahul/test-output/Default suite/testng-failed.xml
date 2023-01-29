@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.maven.com.maven.rahul.AppTest">
+      <class name="com.maven.com.maven.rahul.ScriptOne">
         <methods>
-          <include name="setUp"/>
-          <include name="endTest"/>
-          <include name="verifyTitle"/>
+          <include name="afterMethod"/>
+          <include name="f"/>
+          <include name="beforeMethod"/>
         </methods>
-      </class> <!-- com.maven.com.maven.rahul.AppTest -->
+      </class> <!-- com.maven.com.maven.rahul.ScriptOne -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
